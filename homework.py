@@ -8,3 +8,6 @@ indice = (Peso / cuadrado)
 a= round(indice,2)
 
 print (f"su indice de masa corporal es de  {a}")
+
+
+
