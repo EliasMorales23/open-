@@ -30,6 +30,7 @@ lista.reverse()
 print(lista)
 
 """
+"""
 #ejercicio 5 
 
 
@@ -46,7 +47,20 @@ a= int(input("ingrese su año "))
 
 año= Años(a)
 
+"""
 
 
+#EJERCICIO 6 
+
+class Vehiculo():
+    Color = None 
+    Ruedas=None
+    Puertas=None 
+
+class Coche (Vehiculo):
+    Velocidad= None
+    Cilindrado= None
 
 
+p= Coche()
+print(p.Color)
