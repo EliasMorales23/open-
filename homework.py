@@ -17,6 +17,7 @@ a= round(indice,2)
 print (f"su indice de masa corporal es de  {a}")
 
 """
+"""
 #Ejercicio 4
 
 contador= 1
@@ -28,8 +29,22 @@ while contador <=100:
 lista.reverse()
 print(lista)
 
+"""
+#ejercicio 5 
 
 
+
+def Años(año):
+    bisiesto= año % 4
+    if bisiesto == 0:
+        return print("el año es bisiesto")
+       
+    else: 
+        return print("el año no es bisiesto")
+
+a= int(input("ingrese su año "))
+
+año= Años(a)
 
 
 
