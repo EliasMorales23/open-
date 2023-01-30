@@ -50,10 +50,11 @@ año= Años(a)
 """
 
 
+"""
 #EJERCICIO 6 
 
 class Vehiculo():
-    Color = None 
+    Color = "rojo"
     Ruedas=None
     Puertas=None 
 
@@ -64,3 +65,24 @@ class Coche (Vehiculo):
 
 p= Coche()
 print(p.Color)
+
+
+"""
+
+#Ejercicio 6 (2)
+
+
+class Alumno():   
+    Nombre = None
+    Nota = None
+
+    def MetodoAlumno(self,Nombre,Nota):
+        print(f"NOMBRE DEL ALUMNO {Nombre}")
+        print(f"SU NOTA ES {Nota}")
+        print(f"APROBO ")
+
+#INSTANCIMOS LA CLASE, Y PEDIMOS LOS DATOS, LO PODRIA HACER MEJOR CON "init"
+e= Alumno()
+e.MetodoAlumno("elias",6)
+
+#Devuelve alumno y nota correctamente
